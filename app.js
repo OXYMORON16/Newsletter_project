@@ -16,7 +16,7 @@ app.post('/', function (req, res) {
     console.log(firstName, lastName, email);
 
     mailchimp.setConfig({
-        apiKey: "cf608c844cdc5ebbb6ff301667a5d63a-us17",
+        apiKey: "",
         server: "us17"
     });
 
